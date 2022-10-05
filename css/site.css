@@ -1,0 +1,12 @@
+h1 {
+  text-align: center;
+}
+
+p {
+  background: rgba(200,230,230,0.8);
+  border: dotted 2px #2f2f2f
+}
+
+#whole {
+  background: rgb(180,233,233);
+}
