@@ -8,14 +8,23 @@ h2 {
 }
 
 img {
-  border: solid 6px #453754;
+  border: solid 6px #949b96;
+}
+
+#img-cen {
+  text-align: center;
 }
 
 p {
-  background: rgba(200,230,230,0.8);
-  border: dotted 2px #2f2f2f
+  background: #b3bcbc;
+  border: solid 3px #4c5b61;
+}
+
+ul {
+  border: dotted 2px #4c5b61;
+  background: #b3bcbc;
 }
 
 #whole {
-  background: linear-gradient(#e66465, #9198e5);
+  background: #c5c5c5;
 }
