@@ -1,0 +1,17 @@
+h1 {
+  text-align: center;
+  border: 5px solid #000000;
+}
+
+h2 {
+  text-align: center;
+  border: 2px solid #5f5f5f;
+}
+
+p {
+  font-family: monospace;
+}
+
+#boxed {
+  border: 5px dotted #2a3b75;
+}

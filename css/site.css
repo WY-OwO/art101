@@ -1,14 +1,18 @@
 h1 {
   text-align: center;
+  color: #FA3C6A;
+  border: 5px solid #000000;
+  background: #17171B;
 }
 
 h2 {
   text-align: center;
   font-style: italic;
+  color: #ffffff;
 }
 
 img {
-  border: solid 6px #949b96;
+  border: solid 6px #000000;
 }
 
 #img-cen {
@@ -16,15 +20,41 @@ img {
 }
 
 p {
-  background: #b3bcbc;
-  border: solid 3px #4c5b61;
+  font-family:monospace;
+  color: #ffffff;
 }
 
 ul {
-  border: dotted 2px #4c5b61;
-  background: #b3bcbc;
+  border: dotted 2px #ffffff;
+  font-size: 18px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  width: 700px;
 }
 
-#whole {
-  background: #c5c5c5;
+li {
+  border: 3px solid #000000;
+  background: #76ecff;
+}
+
+li:hover {
+  background: #FF76D6;
+}
+
+#big-table {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap:15px;
+  border: 5px solid #000000;
+  background: rgba(20,20,40,0.85)
+}
+
+#dots {
+  border: 2px dotted #ffffff;
+}
+
+body {
+  background: url("../img/Tile.png") repeat fixed;
 }
