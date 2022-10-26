@@ -1,0 +1,7 @@
+#boxed {
+  border: 5px dotted #2a3b75;
+  background: rgba(30,30,40,0.95);
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap:15px;
+}
