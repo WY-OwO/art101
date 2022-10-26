@@ -18,7 +18,7 @@ console.log("My list: ", Numbar);
 Numbar.map(squareThem);
 console.log("Square the list: ", Numbar.map(squareThem));
 
-Numbar.map(function isEven(x){
+var finalRe = Numbar.map(function isEven(x){
   var results = (x%2 == 0);
   return results;
 })
@@ -27,3 +27,8 @@ console.log("Are the numbers even?: ", Numbar.map(function isEven(x){
   var results = (x%2 == 0);
   return results;
 }));
+
+var outputE1 = document.getElementById("output");
+outputE1.innerHTML = "<h2>"+"Script Output"+"</h2>"+"<br />"+"Numbar = "+ Numbar + "<br />"+"<br />" +
+"Numbar all squared = "+ Numbar.map(squareThem)+ "<br />"+ "<br />" +
+"Is each element in squared Numbar even?: " + "[" + finalRe + "]"

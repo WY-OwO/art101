@@ -17,3 +17,9 @@ p {
   border: 5px dotted #2a3b75;
   background: rgba(30,30,40,0.95);
 }
+
+#output {
+  color: white;
+  border: 3px dotted #2a3b75;
+  background: rgba(30,30,40,0.95);
+}
