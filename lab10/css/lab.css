@@ -1,0 +1,31 @@
+h1 {
+  text-align: center;
+  border: 5px solid #000000;
+}
+
+h2 {
+  text-align: center;
+  border: 2px solid #5f5f5f;
+  background: rgba(20,20,45,0.8)
+}
+
+p {
+  font-family: monospace;
+}
+
+#boxed {
+  border: 5px dotted #2a3b75;
+  background: rgba(30,30,40,0.95);
+}
+
+#output {
+  color: white;
+  border: 3px dotted #2a3b75;
+  background: rgba(30,30,40,0.95);
+  width: 400px;
+  height: 300px;
+}
+
+label {
+  color: white;
+}
