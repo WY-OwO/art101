@@ -1,0 +1,36 @@
+h1 {
+  text-align: center;
+  border: 5px solid #000000;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+  border: 2px solid #5f5f5f;
+  background: rgba(20,20,45,0.8)
+}
+
+p {
+  font-family: monospace;
+}
+
+div {
+  background-color: #3f5e7f;
+}
+
+label {
+  color: white;
+}
+
+.special{
+  background: url("../img/Wall.png");
+  color: white;
+}
+
+.special-more {
+  background: url("../img/Egg.jpg");
+}
+
+.special-the-best {
+  background: url("../img/Hive.jpg");
+}
