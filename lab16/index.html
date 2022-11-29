@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Lab 14 - Debugging Tools and Strategies</title>
+	<title>Lab 16 - JSON and APIs (XKCD comic!)</title>
 	<script src="https://code.jquery.com/jquery-3.6.1.min.js"
 	integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
 	crossorigin="anonymous"></script>
@@ -10,19 +10,31 @@
 	<link rel="stylesheet" type="text/css" href="../css/site.css">
 </head>
 <body>
-	<h1>Lab 14: Debugging Tools and Strategies</h1>
+	<h1>Lab 16: JSON and APIs (XKCD comic!)</h1>
   <h2>Problem</h2>
-	<p id='boxed'>We are to work with a partner and debug our previous JavaScript labs.</p>
+	<p id='boxed'>We are to work with a partner and learn how to use JSON and APIs.</p>
 
 	<h2>Challenges</h2>
-	<p id='boxed'>Since both my partner and I had nothing to debug, or we're not aware of any issues with them,
-		we decide to proceed to Task X, which is answering JavaScript questions on Stack Overflow.
-	<br>It is awfully hard to find questions we can answer, since most questions we find are
-	questions regarding things we simply haven't learned, like display issues across different applications
-	and devices.</br></p>
+	<p id='boxed'>It was overall challenging, but I find appending so many data listed for each comic panel
+	to be overwhelming, but after breaking down the code, I eventually did it. Implementing the
+page flipping for previous and next were a little confusing, as I thought it was for
+the existing comics I randomly generate, but then I was suggested to make a separate
+comic panel to control over. Figuring one of the previous and next buttons sped the other up. </p>
 
 	<h2>Results</h2>
-	<p id="boxed">Check console</p>
-	<div id="output"></div>
+	<div id="big-table">
+		<div id="boxxu">
+			<button id="starting">Start!</button>
+			<button id="previous">Previous</button>
+			<button id="Next">Next</button>
+		</div>
+		<div>
+			<div id="output"></div>
+			<div id="output1"></div>
+		</div>
+	</div>
+
+	<h2>JavaScript link</h2>
+	<p id="boxed"><a href="js/lab.js">Head over to my JavaScript</p>
 </body>
 </html>
